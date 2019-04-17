@@ -14,7 +14,7 @@
 /********************************************************************************/
 
 var db = require("./database.js");
-
+var sanitizer = require('sanitize')();
 
 
 /********************************************************************************/
@@ -62,7 +62,7 @@ function displayContributions1(req,res,next,sts,err,data)
 function handleContributionsUpdate(req,res,next)
 {
    // convert to numbers
-   var preTax = eval(req.body.preTax);
+   var preTax = eval(sanitizer.value(req.body.preTax, 'string'));
    var afterTax = eval(req.body.afterTax);
    var roth = eval(req.body.roth);
 

