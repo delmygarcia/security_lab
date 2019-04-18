@@ -1430,3 +1430,816 @@ ReferenceError: bet is not defined
 DATABASE: SELECT * FROM Contributions WHERE userId = 4
 DATABASE RETURN 1
 ::ffff:138.16.125.251 - - [17/Apr/2019:01:36:11 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:39:37 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Unexpected end of input
+SyntaxError: Unexpected end of input
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:39:50 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:39:56 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:39:57 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:39:57 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+ssfdds is not defined
+ReferenceError: ssfdds is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:39:59 +0000] "POST /contributions HTTP/1.1" 500 155 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+ssfdds is not defined
+ReferenceError: ssfdds is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:07 +0000] "POST /contributions HTTP/1.1" 500 155 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Invalid or unexpected token
+SyntaxError: Invalid or unexpected token
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:67:29)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:10 +0000] "POST /contributions HTTP/1.1" 500 158 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+dfdsfsd is not defined
+ReferenceError: dfdsfsd is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:66:19), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:66:19)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:17 +0000] "POST /contributions HTTP/1.1" 500 156 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:38 +0000] "GET /login HTTP/1.1" 200 7268 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:45 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:45 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:48 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+sdf is not defined
+ReferenceError: sdf is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:40:50 +0000] "POST /contributions HTTP/1.1" 500 152 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:34 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:37 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:37 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:37 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:44 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:45 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:01:42:47 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:44:53 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:44:53 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 0
+::ffff:138.16.125.251 - - [17/Apr/2019:01:44:55 +0000] "GET /memos HTTP/1.1" 200 5873 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'eval(while(true))' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:45:09 +0000] "POST /memos HTTP/1.1" 200 6034 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'while(true)' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 2
+::ffff:138.16.125.251 - - [17/Apr/2019:01:45:32 +0000] "POST /memos HTTP/1.1" 200 6189 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'eval(while(true))' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 3
+::ffff:138.16.125.251 - - [17/Apr/2019:01:45:41 +0000] "POST /memos HTTP/1.1" 200 6350 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'eval(while(1))
+' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 4
+::ffff:138.16.125.251 - - [17/Apr/2019:01:46:01 +0000] "POST /memos HTTP/1.1" 200 6508 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'eval(while(1));
+' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 5
+::ffff:138.16.125.251 - - [17/Apr/2019:01:46:07 +0000] "POST /memos HTTP/1.1" 200 6667 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '"while(1);' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 6
+::ffff:138.16.125.251 - - [17/Apr/2019:01:46:16 +0000] "POST /memos HTTP/1.1" 200 6826 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '"while(1)' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 7
+::ffff:138.16.125.251 - - [17/Apr/2019:01:46:26 +0000] "POST /memos HTTP/1.1" 200 6984 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'system.out.print(hacked)' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 8
+::ffff:138.16.125.251 - - [17/Apr/2019:01:46:36 +0000] "POST /memos HTTP/1.1" 200 7152 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '"while(1)"' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 9
+::ffff:138.16.125.251 - - [17/Apr/2019:01:47:09 +0000] "POST /memos HTTP/1.1" 200 7316 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '" eval(while(1))' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 10
+::ffff:138.16.125.251 - - [17/Apr/2019:01:47:18 +0000] "POST /memos HTTP/1.1" 200 7481 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '" eval(while(1))"' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 11
+::ffff:138.16.125.251 - - [17/Apr/2019:01:47:28 +0000] "POST /memos HTTP/1.1" 200 7652 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:48:46 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Invalid or unexpected token
+SyntaxError: Invalid or unexpected token
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:48:49 +0000] "POST /contributions HTTP/1.1" 500 158 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Invalid or unexpected token
+SyntaxError: Invalid or unexpected token
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:52:39 +0000] "POST /contributions HTTP/1.1" 500 158 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:52:42 +0000] "GET / HTTP/1.1" 200 9284 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:52:43 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+sdasdas is not defined
+ReferenceError: sdasdas is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:01:52:46 +0000] "POST /contributions HTTP/1.1" 500 156 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:53:22 +0000] "GET / HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:53:23 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:53:24 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:54:29 +0000] "GET / HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:01:54:31 +0000] "GET / HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:02:02:07 +0000] "GET / HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:02:02:08 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Unexpected end of input
+SyntaxError: Unexpected end of input
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:02:02:16 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE Contributions SET preTax = 1, afterTax = 1, roth = 1 WHERE userId = 4
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:02:02:30 +0000] "POST /contributions HTTP/1.1" 200 9631 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+qwe is not defined
+ReferenceError: qwe is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:02:02:35 +0000] "POST /contributions HTTP/1.1" 500 152 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+sdcaedf is not defined
+ReferenceError: sdcaedf is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:02:02:43 +0000] "POST /contributions HTTP/1.1" 500 156 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE Contributions SET preTax = 1, afterTax = 1, roth = 1 WHERE userId = 4
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.125.251 - - [17/Apr/2019:02:05:51 +0000] "POST /contributions HTTP/1.1" 200 9631 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+s is not defined
+ReferenceError: s is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:02:05:55 +0000] "POST /contributions HTTP/1.1" 500 150 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+s is not defined
+ReferenceError: s is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.125.251 - - [17/Apr/2019:02:06:05 +0000] "POST /contributions HTTP/1.1" 500 150 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 11
+::ffff:192.91.235.243 - - [17/Apr/2019:02:07:14 +0000] "GET /memos HTTP/1.1" 200 7652 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'xsx' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 12
+::ffff:192.91.235.243 - - [17/Apr/2019:02:07:49 +0000] "POST /memos HTTP/1.1" 200 7799 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'XSS' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 13
+::ffff:192.91.235.243 - - [17/Apr/2019:02:07:55 +0000] "POST /memos HTTP/1.1" 200 7946 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'Xss' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 14
+::ffff:192.91.235.243 - - [17/Apr/2019:02:07:59 +0000] "POST /memos HTTP/1.1" 200 8093 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 14
+::ffff:138.16.125.251 - - [17/Apr/2019:02:08:28 +0000] "GET /memos HTTP/1.1" 200 8093 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'ASD' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 15
+::ffff:138.16.125.251 - - [17/Apr/2019:02:08:30 +0000] "POST /memos HTTP/1.1" 200 8240 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.125.251 - - [17/Apr/2019:02:08:39 +0000] "GET /memos/search?keyword=%3Cscript%3E%3C/script%3E HTTP/1.1" 404 151 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '<script>ALERT(1)</script>' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 16
+::ffff:138.16.125.251 - - [17/Apr/2019:02:08:50 +0000] "POST /memos HTTP/1.1" 200 8401 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '<script>alert(1)</script>' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 17
+::ffff:138.16.125.251 - - [17/Apr/2019:02:08:59 +0000] "POST /memos HTTP/1.1" 200 8562 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '<script>while(1)</script>' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 18
+::ffff:138.16.125.251 - - [17/Apr/2019:02:09:05 +0000] "POST /memos HTTP/1.1" 200 8723 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+redirecting to login
+::ffff:139.162.237.29 - - [17/Apr/2019:06:36:22 +0000] "GET /api/v1/overview/default?filterBy=&itemsPerPage=10&name=&page=1&sortBy=d,creationTimestamp HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+::ffff:139.162.237.29 - - [17/Apr/2019:06:36:22 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/api/v1/overview/default?filterBy=&itemsPerPage=10&name=&page=1&sortBy=d,creationTimestamp" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:139.162.79.87 - - [17/Apr/2019:07:52:03 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0"
+welcome: Unable to identify user...redirecting to login
+::ffff:52.166.203.199 - - [17/Apr/2019:07:55:45 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:52.166.203.199 - - [17/Apr/2019:07:55:45 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+redirecting to login
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:55 +0000] "GET /TP/public/index.php HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:56 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/TP/public/index.php" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:57 +0000] "GET /TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:58 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/TP/public/index.php?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:58 +0000] "POST /TP/public/index.php?s=captcha HTTP/1.1" 302 28 "-" "Go-http-client/1.1"
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:59 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/TP/public/index.php?s=captcha" "Go-http-client/1.1"
+redirecting to login
+::ffff:47.93.37.33 - - [17/Apr/2019:08:53:59 +0000] "POST /users?page=&size=5 HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:47.93.37.33 - - [17/Apr/2019:08:54:01 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/users?page=&size=5" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+welcome: Unable to identify user...redirecting to login
+::ffff:47.93.37.33 - - [17/Apr/2019:08:54:02 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+::ffff:47.93.37.33 - - [17/Apr/2019:08:54:02 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080" "Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)"
+redirecting to login
+::ffff:180.101.185.222 - - [17/Apr/2019:10:34:20 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+welcome: Unable to identify user...redirecting to login
+::ffff:107.6.169.250 - - [17/Apr/2019:13:31:46 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36 "
+::ffff:107.6.169.250 - - [17/Apr/2019:13:31:46 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36 "
+welcome: Unable to identify user...redirecting to login
+::ffff:66.240.205.34 - - [17/Apr/2019:16:31:35 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+::ffff:66.240.205.34 - - [17/Apr/2019:16:31:35 +0000] "GET /login HTTP/1.1" 200 7276 "-" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
+redirecting to login
+::ffff:66.240.205.34 - - [17/Apr/2019:16:31:35 +0000] "GET /robots.txt HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:66.240.205.34 - - [17/Apr/2019:16:31:35 +0000] "GET /sitemap.xml HTTP/1.1" 302 28 "-" "-"
+redirecting to login
+::ffff:66.240.205.34 - - [17/Apr/2019:16:31:35 +0000] "GET /.well-known/security.txt HTTP/1.1" 302 28 "-" "-"
+welcome: Unable to identify user...redirecting to login
+::ffff:106.12.89.13 - - [17/Apr/2019:17:17:59 +0000] "GET / HTTP/1.1" 302 28 "-" "Mozilla/5.0 zgrab/0.x"
+::ffff:106.12.89.13 - - [17/Apr/2019:17:18:00 +0000] "GET /login HTTP/1.1" 200 7276 "http://3.16.183.224:8080/" "Mozilla/5.0 zgrab/0.x"
+welcome: Unable to identify user...redirecting to login
+::ffff:209.17.96.234 - - [17/Apr/2019:23:11:34 +0000] "GET / HTTP/1.0" 302 28 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+redirecting to login
+::ffff:119.39.5.97 - - [17/Apr/2019:23:50:10 +0000] "GET /manager/html HTTP/1.1" 302 56 "-" "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:01 +0000] "GET /login HTTP/1.1" 200 7276 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:07 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:08 +0000] "GET /dashboard HTTP/1.1" 200 9284 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 18
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:10 +0000] "GET /memos HTTP/1.1" 200 8723 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:22 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 18
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:24 +0000] "GET /memos HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:38 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:15:40 +0000] "GET / HTTP/1.1" 200 9284 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 18
+::ffff:138.16.119.99 - - [18/Apr/2019:02:16:57 +0000] "GET /memos HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 18
+::ffff:138.16.119.99 - - [18/Apr/2019:02:16:57 +0000] "GET /memos HTTP/1.1" 200 8723 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '<!--' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 19
+::ffff:138.16.119.99 - - [18/Apr/2019:02:17:21 +0000] "POST /memos HTTP/1.1" 200 8874 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( '<!--' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 20
+::ffff:138.16.119.99 - - [18/Apr/2019:02:17:32 +0000] "POST /memos HTTP/1.1" 200 9025 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:18:40 +0000] "GET /learn?url=https://www.khanacademy.org/economics-finance-domain/core-finance/investment-vehicles-tutorial/ira-401ks/v/traditional-iras HTTP/1.1" 302 290 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:18:44 +0000] "GET /profile HTTP/1.1" 200 7774 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:18:47 +0000] "GET /profile HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 20
+::ffff:138.16.119.99 - - [18/Apr/2019:02:18:48 +0000] "GET /memos HTTP/1.1" 200 9025 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:18:53 +0000] "GET /allocations/4 HTTP/1.1" 200 7015 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:18:54 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/4" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+ssddsds is not defined
+ReferenceError: ssddsds is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.119.99 - - [18/Apr/2019:02:19:02 +0000] "POST /contributions HTTP/1.1" 500 156 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE Contributions SET preTax = 1, afterTax = 0, roth = 0 WHERE userId = 4
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:19:09 +0000] "POST /contributions HTTP/1.1" 200 9631 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+asdasd is not defined
+ReferenceError: asdasd is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.119.99 - - [18/Apr/2019:02:19:15 +0000] "POST /contributions HTTP/1.1" 500 155 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+alert is not defined
+ReferenceError: alert is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:138.16.119.99 - - [18/Apr/2019:02:19:30 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Unexpected token <
+SyntaxError: Unexpected token <
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.119.99 - - [18/Apr/2019:02:19:40 +0000] "POST /contributions HTTP/1.1" 500 149 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:19:53 +0000] "POST /contributions HTTP/1.1" 200 9627 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:01 +0000] "POST /contributions HTTP/1.1" 200 9627 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Unexpected token >
+SyntaxError: Unexpected token >
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:12 +0000] "POST /contributions HTTP/1.1" 500 149 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:28 +0000] "GET / HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:30 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:30 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:30 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'A" OR 1=1'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:44 +0000] "POST /login HTTP/1.1" 200 7583 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'A" OR 1=1;'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:20:53 +0000] "POST /login HTTP/1.1" 200 7584 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'A" OR 1=1;'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:00 +0000] "POST /login HTTP/1.1" 200 7584 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'A" OR 1=1;'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:05 +0000] "POST /login HTTP/1.1" 200 7584 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'A" OR 1=1;'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:10 +0000] "POST /login HTTP/1.1" 200 7584 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer" '
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:17 +0000] "POST /login HTTP/1.1" 200 7584 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer" alert(1);'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:24 +0000] "POST /login HTTP/1.1" 200 7593 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer"; alert(1);'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:34 +0000] "POST /login HTTP/1.1" 200 7594 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer" while(1);'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:39 +0000] "POST /login HTTP/1.1" 200 7593 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer" while(1);'
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:43 +0000] "POST /login HTTP/1.1" 200 7593 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:46 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:47 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:50 +0000] "GET /profile HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:21:58 +0000] "GET /profile/ HTTP/1.1" 200 7774 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:22:10 +0000] "GET /profile/%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1" 404 180 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:28:53 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:28:57 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:02:28:57 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:28:57 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:28:58 +0000] "GET /tutorial HTTP/1.1" 200 21010 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:31:29 +0000] "GET /tutorial/a2 HTTP/1.1" 200 19981 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:31:30 +0000] "GET /tutorial/a1 HTTP/1.1" 200 21010 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:31:43 +0000] "GET /tutorial HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:02:31:50 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:02:31:50 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:02:31:51 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:02:31:53 +0000] "GET /tutorial HTTP/1.1" 200 21010 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:02:32:37 +0000] "GET /tutorial/a1 HTTP/1.1" 200 21010 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:32:47 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:02:38:31 +0000] "GET /tutorial/a3 HTTP/1.1" 200 14923 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:02:49:59 +0000] "GET /tutorial/a1 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:53:05 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:02:53:05 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:53:45 +0000] "GET /tutorial/a1 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 20
+::ffff:138.16.119.99 - - [18/Apr/2019:02:54:16 +0000] "GET /memos HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: INSERT INTO Memos(memo) VALUES ( 'data/user-dao.js addUser()' )
+DATABASE RETURN 0
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 21
+::ffff:138.16.119.99 - - [18/Apr/2019:02:54:19 +0000] "POST /memos HTTP/1.1" 200 9195 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:02:54:27 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:02:54:27 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:02:54:29 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+asdasdad is not defined
+ReferenceError: asdasdad is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [18/Apr/2019:02:54:37 +0000] "POST /contributions HTTP/1.1" 500 157 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:54:37 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+a is not defined
+ReferenceError: a is not defined
+    at eval (eval at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17), <anonymous>:1:1)
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+::ffff:192.91.235.243 - - [18/Apr/2019:02:54:42 +0000] "POST /contributions HTTP/1.1" 500 150 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:02:54:58 +0000] "GET /contributions HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 21
+::ffff:138.16.119.99 - - [18/Apr/2019:02:55:00 +0000] "GET /memos HTTP/1.1" 200 9195 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Unexpected end of input
+SyntaxError: Unexpected end of input
+    at handleContributionsUpdate (/home/ec2-user/security_lab/contributions.js:65:31)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/ec2-user/security_lab/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at isLoggedInMiddleware (/home/ec2-user/security_lab/session.js:61:28)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:317:13)
+    at /home/ec2-user/security_lab/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ec2-user/security_lab/node_modules/express/lib/router/index.js:275:10)
+    at logger (/home/ec2-user/security_lab/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/home/ec2-user/security_lab/node_modules/express/lib/router/layer.js:95:5)
+::ffff:192.91.235.243 - - [18/Apr/2019:02:55:02 +0000] "POST /contributions HTTP/1.1" 500 154 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:55:04 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:02:55:04 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:02:55:04 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Listening on 8080
+::ffff:138.16.119.99 - - [18/Apr/2019:03:07:20 +0000] "GET /tutorial HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:03:07:27 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:03:07:28 +0000] "GET /login HTTP/1.1" 200 7276 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"

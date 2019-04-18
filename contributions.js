@@ -28,8 +28,6 @@ function displayContributions(req,res,next)
     displayContributions0(req,res,next,false);
 }
 
-
-
 function displayContributions0(req,res,next,sts)
 {
    var userid = req.session.userId;
@@ -37,7 +35,6 @@ function displayContributions0(req,res,next,sts)
    var q = "SELECT * FROM Contributions WHERE userId = " + userid;
    db.query(q,function (e1,d1) { displayContributions1(req,res,next,sts,e1,d1); } );
 }
-
 
 
 function displayContributions1(req,res,next,sts,err,data)
@@ -61,10 +58,10 @@ function displayContributions1(req,res,next,sts,err,data)
 
 function handleContributionsUpdate(req,res,next)
 {
-   // convert to numbers
-   var preTax = eval(sanitizer.value(req.body.preTax, 'string'));
-   var afterTax = eval(req.body.afterTax);
-   var roth = eval(req.body.roth);
+   // convert to numbers  
+   var preTax = parseInt(req.body.preTax);
+   var afterTax = parseInt(req.body.afterTax);
+   var roth = parseInt(req.body.roth);
 
    var userId = req.session.userId;
 
@@ -87,7 +84,6 @@ function handleContributionsUpdate(req,res,next)
       ", roth = " + roth + " WHERE userId = " + userId;
    db.query(q,function (e1,d1) { handleContributionsUpdate1(req,res,next,e1,d1); } );
 }
-
 
 function handleContributionsUpdate1(req,res,next,err,data)
 {
