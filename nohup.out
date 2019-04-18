@@ -2243,3 +2243,93 @@ Listening on 8080
 welcome: Unable to identify user...redirecting to login
 ::ffff:138.16.119.99 - - [18/Apr/2019:03:07:27 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
 ::ffff:138.16.119.99 - - [18/Apr/2019:03:07:28 +0000] "GET /login HTTP/1.1" 200 7276 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:03:10:37 +0000] "GET /tutorial HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:03:10:40 +0000] "GET /tutorial/a1 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:03:13:47 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:03:17:11 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:04:34:35 +0000] "GET /tutorial/a1 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:04:35:06 +0000] "GET /tutorial/a2 HTTP/1.1" 200 19981 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:04:35:10 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:04:52:26 +0000] "GET /tutorial HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:04:52:45 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:74.82.47.2 - - [18/Apr/2019:05:04:14 +0000] "GET / HTTP/1.1" 302 28 "-" "-"
+::ffff:192.91.235.243 - - [18/Apr/2019:05:12:09 +0000] "GET /tutorial/a1 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:05:12:38 +0000] "GET /tutorial/a3 HTTP/1.1" 200 14923 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:05:12:49 +0000] "GET /tutorial/a4 HTTP/1.1" 200 8319 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:05:12:53 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:25 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:25 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:27 +0000] "GET /allocations/4 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 3
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:31 +0000] "GET /allocations/3 HTTP/1.1" 200 7013 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 2
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:34 +0000] "GET /allocations/2 HTTP/1.1" 200 7015 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 1
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:37 +0000] "GET /allocations/1 HTTP/1.1" 200 7015 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 1
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:39 +0000] "GET /allocations/1?threshold=erter HTTP/1.1" 200 7015 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/1" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 1
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:42 +0000] "GET /allocations/1?threshold=23423 HTTP/1.1" 200 7015 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/1?threshold=erter" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 1
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:44 +0000] "GET /allocations/1?threshold=234234 HTTP/1.1" 200 7015 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/1?threshold=23423" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 1
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:51 +0000] "GET /allocations/1?threshold=456456 HTTP/1.1" 200 7015 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/1?threshold=234234" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 1
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:14:54 +0000] "GET /allocations/1?threshold=456456456456456456 HTTP/1.1" 200 7015 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/1?threshold=456456" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 5
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:15:00 +0000] "GET /allocations/5 HTTP/1.1" 200 7015 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:15:03 +0000] "GET /allocations/4 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 3
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:15:06 +0000] "GET /allocations/3 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 3
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:15:11 +0000] "GET /allocations/3?threshold= HTTP/1.1" 200 7013 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:17:07 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:17:08 +0000] "GET / HTTP/1.1" 200 9284 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:17:09 +0000] "GET /contributions HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:05:17:14 +0000] "POST /contributions HTTP/1.1" 200 9638 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:05:17:23 +0000] "POST /contributions HTTP/1.1" 200 9638 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 4
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:05:17:28 +0000] "GET /allocations/4 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Listening on 8080
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:17:29:38 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:17:29:38 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:17:29:40 +0000] "GET /allocations/3 HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:17:29:40 +0000] "GET /login HTTP/1.1" 200 7276 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:17:29:55 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:17:29:55 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:17:30:44 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a4" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:17:38:14 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:17:38:16 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
