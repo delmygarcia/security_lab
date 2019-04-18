@@ -15,7 +15,7 @@
 /********************************************************************************/
 
 var db = require("./database.js");
-
+var bc = require("bcrypt");
 
 /********************************************************************************/
 /*										*/
@@ -129,7 +129,8 @@ function handleLoginRequest1(req,res,next,err,data)
 
 function comparePassword(fromdb,fromuser)
 {
-   return fromdb == fromuser;
+   return bc.compareSync(fromuser, fromdb);
+  // return fromdb == fromuser;
 }
 
 
@@ -210,11 +211,12 @@ function handleSignup(req,res,next)
 
 function handleSignup1(req,res,next,errors,err,data)
 {
+   var passhash = bc.hashSync(req.body.password, 10);
    var email = req.body.email;
    var userName = req.body.userName;
    var firstName = req.body.firstName;
    var lastName = req.body.lastName;
-   var password = req.body.password;
+   var password = passhash;
    var verify = req.body.verify;   
    
    if (err != null) return next(err);

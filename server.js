@@ -31,8 +31,6 @@ var allocations = require("./allocations.js");
 var memos = require("./memos.js");
 
 
-
-
 /********************************************************************************/
 /*										*/
 /*	Setup routing using express						*/
@@ -59,7 +57,7 @@ function setup()
    app.set("views", __dirname + "/app/views");
 
    app.use(express.static(__dirname + "/app/assets"));
-
+   
    app.use(logger('combined'));
 
    // intialize marked library
@@ -120,8 +118,10 @@ function setup()
    app.use(errorHandler);
 
    // Template system setup
+ 
    swig.setDefaults({
-	 autoescape: false
+	 root:__dirname + "/app/views",
+	 autoescape: true
     });
 
    var server = app.listen(8080);

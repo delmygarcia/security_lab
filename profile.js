@@ -8,8 +8,7 @@
 
 
 var db = require("./database.js");
-
-
+var sanitizer = require("sanitize")();
 
 
 /********************************************************************************/
@@ -63,8 +62,8 @@ function displayProfile1(req,res,next,succ,err,data)
 
 function handleProfileUpdate(req,res,next)
 {
-   var firstname = req.body.firstName;
-   var lastname = req.body.lastName;
+   var firstname = sanitizer.value(req.body.firstName, 'string');
+   var lastname = sanitizer.value(req.body.lastName, 'string');
    var ssn = req.body.ssn;
    var dob = req.body.dob;
    var address = req.body.address;

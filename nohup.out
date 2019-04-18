@@ -2333,3 +2333,1135 @@ DATABASE RETURN 1
 ::ffff:138.16.119.99 - - [18/Apr/2019:17:30:44 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a4" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
 ::ffff:192.91.235.243 - - [18/Apr/2019:17:38:14 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
 ::ffff:192.91.235.243 - - [18/Apr/2019:17:38:16 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:18:47:51 +0000] "GET /tutorial HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:18:48:09 +0000] "GET /tutorial HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:18:59:05 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:18:59:10 +0000] "POST /contributions HTTP/1.1" 200 9627 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 21
+::ffff:192.91.235.243 - - [18/Apr/2019:18:59:14 +0000] "GET /memos HTTP/1.1" 200 9195 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 21
+::ffff:192.91.235.243 - - [18/Apr/2019:18:59:53 +0000] "GET /memos HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:03:26 +0000] "GET /tutorial/a2 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:40 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:40 +0000] "GET /login HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:46 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'jen','jen','jen','jen','jen@jen.jen')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 6,13,6,81)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:56 +0000] "POST /signup HTTP/1.1" 200 9274 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 6)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 6)
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:58 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:58 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:18:58 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:01 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:01 +0000] "GET /dashboard HTTP/1.1" 200 9274 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:11 +0000] "GET /profile HTTP/1.1" 200 7754 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:16 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:16 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:16 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:19 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:29 +0000] "POST /login HTTP/1.1" 200 7577 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:39 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:39 +0000] "GET /dashboard HTTP/1.1" 200 9278 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:46 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:46 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:19:46 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:21:49 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:21:51 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:21:53 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:21:54 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:00 +0000] "POST /login HTTP/1.1" 200 7582 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:05 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:05 +0000] "GET /dashboard HTTP/1.1" 200 9274 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:07 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:07 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:07 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:12 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:12 +0000] "GET /dashboard HTTP/1.1" 200 9278 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:14 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:14 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:14 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Listening on 8080
+events.js:170
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1258:14)
+    at listenInCluster (net.js:1306:12)
+    at Server.listen (net.js:1394:7)
+    at Function.listen (/home/ec2-user/security_lab/node_modules/express/lib/application.js:618:24)
+    at setup (/home/ec2-user/security_lab/server.js:127:21)
+    at Object.<anonymous> (/home/ec2-user/security_lab/server.js:157:1)
+    at Module._compile (internal/modules/cjs/loader.js:805:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:816:10)
+    at Module.load (internal/modules/cjs/loader.js:672:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:612:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:604:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:868:12)
+    at internal/main/run_main_module.js:21:11
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1285:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:17)
+    at process.runNextTicks [as _tickCallback] (internal/process/task_queues.js:56:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:871:11)
+    at internal/main/run_main_module.js:21:11
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:45 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:46 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:47 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:49 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:22:50 +0000] "GET /login HTTP/1.1" 200 7276 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:23:58 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:07 +0000] "GET /signup HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'dg','dg','dg','dg','')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 7,7,37,56)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:19 +0000] "POST /signup HTTP/1.1" 200 9272 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 7)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 7)
+DATABASE RETURN 0
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:38 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:38 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:38 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:46 +0000] "POST /login HTTP/1.1" 200 7599 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:49 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:24:49 +0000] "GET /dashboard HTTP/1.1" 200 9272 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:25:08 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:26:41 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:28:43 +0000] "GET /profile HTTP/1.1" 200 7750 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:28:52 +0000] "POST /profile HTTP/1.1" 200 8068 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:29:07 +0000] "POST /profile HTTP/1.1" 200 8068 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:29:22 +0000] "GET /profile HTTP/1.1" 200 7762 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:29:23 +0000] "GET /profile HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = '<script>alert(1)</script>', lastName = 'sdasdas' WHERE userId = 7
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '1112221212', dob = '1212-12-12', address = 'sdfesfsdf', bankAcc = '123412341234', bankRouting = '0198212#' WHERE userId = 7
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:29:51 +0000] "POST /profile HTTP/1.1" 200 8270 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = '<script>alert(1)</script>', lastName = 'sdasdas' WHERE userId = 7
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '1112221212', dob = '1212-12-12', address = 'sdfesfsdf', bankAcc = '123412341234', bankRouting = '0198212#' WHERE userId = 7
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:29:56 +0000] "POST /profile HTTP/1.1" 200 8270 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:01 +0000] "GET / HTTP/1.1" 200 9300 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:04 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:04 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:05 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:09 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:09 +0000] "GET /dashboard HTTP/1.1" 200 9300 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:13 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:13 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:14 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:17 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:30:17 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:25 +0000] "POST /profile HTTP/1.1" 200 8068 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:28 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:28 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:28 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:32 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:32 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:36 +0000] "GET /profile HTTP/1.1" 200 7762 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:30:54 +0000] "POST /profile HTTP/1.1" 200 8068 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie)</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '', dob = '1234-12-03', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:31 +0000] "POST /profile HTTP/1.1" 200 8271 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:35 +0000] "GET /profile HTTP/1.1" 200 7908 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:40 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:40 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:40 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:44 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:31:44 +0000] "GET /dashboard HTTP/1.1" 200 9312 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:38:34 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:38:34 +0000] "GET /profile HTTP/1.1" 200 7907 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:38:38 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:38:38 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:38:38 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'sakjndlksjdlkas', lastName = '<script type="text/javascript"> alert(document.cookie);</script>' WHERE userId = 7
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '1112221212', dob = '', address = 'sdfesfsdf', bankAcc = '123412341234', bankRouting = '0198212#' WHERE userId = 7
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '1112221212', dob = '', address = 'sdfesfsdf', bankAcc = '123412341234', bankRouting = '0198212#' WHERE userId = 7" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:16 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:26 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:26 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:26 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:31 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:31 +0000] "GET /dashboard HTTP/1.1" 200 9347 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:39:36 +0000] "GET /profile HTTP/1.1" 200 8001 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:39:54 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:39:54 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:39:56 +0000] "GET /profile HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'sakjndlksjdlkas', lastName = '<script>alert(document.cookie);</script>' WHERE userId = 7
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '1112221212', dob = '', address = 'sdfesfsdf', bankAcc = '123412341234', bankRouting = '0198212#' WHERE userId = 7
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '1112221212', dob = '', address = 'sdfesfsdf', bankAcc = '123412341234', bankRouting = '0198212#' WHERE userId = 7" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:40:01 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie)</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '', dob = '', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '', dob = '', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:04 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:40:08 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:40:08 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:40:08 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'dg'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:40:12 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 7
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:40:12 +0000] "GET /dashboard HTTP/1.1" 200 9323 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie)</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '', dob = '1999-01-01', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:17 +0000] "POST /profile HTTP/1.1" 200 8271 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie)</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '', dob = '1999-01-01', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:21 +0000] "POST /profile HTTP/1.1" 200 8271 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:23 +0000] "GET /tutorial HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial/a3" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie)</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '', dob = '1999-01-01', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:28 +0000] "POST /profile HTTP/1.1" 200 8271 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:30 +0000] "GET / HTTP/1.1" 200 9312 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:34 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:34 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:34 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:35 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:40:35 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.219.173.124 - - [18/Apr/2019:19:40:57 +0000] "GET / HTTP/1.0" 302 28 "-" "asa"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:41:06 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:41:06 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:41:06 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:41:14 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:41:14 +0000] "GET /dashboard HTTP/1.1" 200 9274 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:41:16 +0000] "GET /profile HTTP/1.1" 200 7754 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'jen', lastName = '<script type="text/javascript"> alert(document.cookie); console.log(document);</script>' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '121212121', dob = '0012-12-12', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:42:15 +0000] "POST /profile HTTP/1.1" 200 8381 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:42:17 +0000] "GET / HTTP/1.1" 200 9358 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:42:44 +0000] "GET / HTTP/1.1" 200 9358 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:42:57 +0000] "GET /dashboard HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:20 +0000] "GET /profile HTTP/1.1" 200 8018 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'jen', lastName = '<script>console.log(document.cookie);</script>' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '121212121', dob = '', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '121212121', dob = '', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:42 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:46 +0000] "GET / HTTP/1.1" 200 9317 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:50 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:50 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:50 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:57 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:43:57 +0000] "GET /dashboard HTTP/1.1" 200 9317 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:44:12 +0000] "GET /profile HTTP/1.1" 200 7908 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:32 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:32 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:32 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:39 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:39 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:42 +0000] "GET /profile HTTP/1.1" 200 7936 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'jen', lastName = '<script>console.log(document.cookie);</script>' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '121212121', dob = '1212-12-12', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:46:57 +0000] "POST /profile HTTP/1.1" 200 8299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:00 +0000] "GET / HTTP/1.1" 200 9317 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Memos ORDER BY memotime DESC
+DATABASE RETURN 21
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:10 +0000] "GET /memos HTTP/1.1" 200 9195 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM Contributions WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:13 +0000] "GET /contributions HTTP/1.1" 200 9262 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/memos" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie);</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '123456789', dob = '1234-01-01', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:14 +0000] "POST /profile HTTP/1.1" 200 8282 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM Allocations WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:14 +0000] "GET /allocations/6 HTTP/1.1" 200 7014 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/contributions" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert(document.cookie);</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '123456789', dob = '1234-01-01', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:17 +0000] "POST /profile HTTP/1.1" 200 8282 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:18 +0000] "GET /profile HTTP/1.1" 200 7936 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/allocations/6" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:21 +0000] "GET / HTTP/1.1" 200 9313 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:25 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:25 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:25 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:26 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:26 +0000] "GET /dashboard HTTP/1.1" 200 9313 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'jen', lastName = '<script>alert("hello");</script>' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '121212121', dob = '', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '121212121', dob = '', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:28 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:31 +0000] "GET / HTTP/1.1" 200 9303 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:34 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:34 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:34 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:36 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:36 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:37 +0000] "GET / HTTP/1.1" 200 9303 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:47:41 +0000] "GET / HTTP/1.1" 200 9303 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:47:51 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/tutorial" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:13 +0000] "GET /dashboard HTTP/1.1" 200 9303 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:25 +0000] "GET /dashboard HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:25 +0000] "GET /login HTTP/1.1" 200 7299 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:29 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:30 +0000] "GET /dashboard HTTP/1.1" 200 9303 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:35 +0000] "GET /profile HTTP/1.1" 200 7908 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: UPDATE User SET firstName = 'jen', lastName = '<script>alert(document.cookie);</script>' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '121212121', dob = '1212-12-12', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:50 +0000] "POST /profile HTTP/1.1" 200 8287 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:53 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:53 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:53 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:57 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:48:57 +0000] "GET /dashboard HTTP/1.1" 200 9311 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:36 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:36 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:36 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:37 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:37 +0000] "GET /dashboard HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:43 +0000] "GET /profile HTTP/1.1" 200 7919 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert("hello");</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '123456789', dob = '', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '123456789', dob = '', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:192.91.235.243 - - [18/Apr/2019:19:50:59 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'delmy', lastName = '<script>alert("hello");</script>' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '123456789', dob = '1999-01-01', address = '', bankAcc = '12345679', bankRouting = '0198212#' WHERE userId = 5
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:07 +0000] "POST /profile HTTP/1.1" 200 8266 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:13 +0000] "GET / HTTP/1.1" 200 9305 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:17 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:17 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:17 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:18 +0000] "POST /login HTTP/1.1" 302 64 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 5
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:19:51:18 +0000] "GET /dashboard HTTP/1.1" 200 9305 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:53:44 +0000] "GET /profile HTTP/1.1" 200 7924 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/dashboard" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: UPDATE User SET firstName = 'jen', lastName = '<script>alert("hello");</script>' WHERE userId = 6
+DATABASE RETURN 0
+DATABASE: UPDATE Profile SET ssn = '121212121', dob = '', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6
+DATABASE ERROR { Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sqlMessage: "Incorrect date value: '' for column 'dob' at row 1",
+  sqlState: '22007',
+  index: 0,
+  sql:
+   "UPDATE Profile SET ssn = '121212121', dob = '', address = 'qeqweqwe', bankAcc = '123123123', bankRouting = '0198212#' WHERE userId = 6" }
+ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+Error: ER_TRUNCATED_WRONG_VALUE: Incorrect date value: '' for column 'dob' at row 1
+    at Query.Sequence._packetToError (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:150:17)
+    --------------------
+    at Protocol._enqueue (/home/ec2-user/security_lab/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/mysql/lib/Connection.js:200:25)
+    at MySQLConnection.query (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:100:30)
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:161:16
+    at /home/ec2-user/security_lab/node_modules/any-db-pool/index.js:178:5
+    at dispense (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:247:16)
+    at Object.me.acquire (/home/ec2-user/security_lab/node_modules/generic-pool/lib/generic-pool.js:316:5)
+    at ConnectionPool.acquire (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:174:14)
+    at ConnectionPool.query (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:143:8)
+    at Object.query (/home/ec2-user/security_lab/database.js:41:16)
+    at handleProfileUpdate1 (/home/ec2-user/security_lab/profile.js:105:7)
+    at /home/ec2-user/security_lab/profile.js:86:34
+    at /home/ec2-user/security_lab/database.js:51:25
+    at Readable.query.callback (/home/ec2-user/security_lab/node_modules/any-db-pool/index.js:104:7)
+    at Readable.<anonymous> (/home/ec2-user/security_lab/node_modules/any-db-mysql/index.js:70:28)
+    at Readable.emit (events.js:198:15)
+::ffff:138.16.119.99 - - [18/Apr/2019:19:53:53 +0000] "POST /profile HTTP/1.1" 500 201 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT * FROM User WHERE userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:53:55 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 6
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:19:53:58 +0000] "GET /profile HTTP/1.1" 200 7908 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36"
+Listening on 8080
+redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:20:14:31 +0000] "GET /dashboard HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:14:31 +0000] "GET /login HTTP/1.1" 200 7299 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:14:34 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:14:41 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:20:14:44 +0000] "GET / HTTP/1.1" 302 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:14:44 +0000] "GET /login HTTP/1.1" 200 7299 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:14:46 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'j'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'j','j','j','$2b$10$H//Y.SQ5/RfaSYHh1qbwP.L7dj34odshMBJyMxmnTl94QEFC54yR2','j@j.j')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'j'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 8,35,24,41)
+::ffff:138.16.119.99 - - [18/Apr/2019:20:14:54 +0000] "POST /signup HTTP/1.1" 200 9270 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 8)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 8)
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'credo'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'credo','credo','credo','$2b$10$n4PcZ7oP0tmxBW.3enewRukP1IDBN.YFO/NqvVrhSnz5QgoDFmlrK','')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'credo'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 9,21,19,60)
+::ffff:192.91.235.243 - - [18/Apr/2019:20:14:56 +0000] "POST /signup HTTP/1.1" 200 9278 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 9)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 9)
+DATABASE RETURN 0
+DATABASE: SELECT U.firstName, U.lastName, P.ssn, P.dob, P.address, P.bankAcc, P.bankRouting FROM User U, Profile P WHERE U.userId = P.userId AND U.userId = 8
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:20:14:57 +0000] "GET /profile HTTP/1.1" 200 7746 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:15:00 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:20:15:00 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:15:00 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'credo'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:15:02 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'credo'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:15:06 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:09 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+welcome: Unable to identify user...redirecting to login
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:09 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:09 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/profile" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'j'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:43 +0000] "POST /login HTTP/1.1" 200 7598 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:45 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:48 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:55 +0000] "POST /login HTTP/1.1" 200 7605 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:15:58 +0000] "GET /signup HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:16:01 +0000] "GET /login HTTP/1.1" 200 7299 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'credo'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:16:03 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:16:14 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jennifer'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:20:16:15 +0000] "POST /signup HTTP/1.1" 200 4937 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:16:46 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+Listening on 8080
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:20 +0000] "GET /tutorial/a3 HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'delmy'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:23 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'credo'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:28 +0000] "POST /login HTTP/1.1" 200 7602 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:31 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:18:34 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:18:37 +0000] "GET /signup HTTP/1.1" 200 4856 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'cd'
+DATABASE RETURN 0
+DATABASE: INSERT INTO User ( userName, firstName, lastName, password, email) VALUES ( 'cd','cd','cd','$2b$10$pfhhrnx/69VDcOpc8GZ3RuW.VGLxnys.8fvFaE3Bze3P.YCZNil6i','')
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'cd'
+DATABASE RETURN 1
+DATABASE: INSERT INTO Allocations (userId,stocks,funds,bonds) VALUES ( 10,14,23,63)
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:49 +0000] "POST /signup HTTP/1.1" 200 9273 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE RETURN 0
+DATABASE: INSERT INTO Profile (userid) VALUES ( 10)
+DATABASE RETURN 0
+DATABASE: INSERT INTO Contributions (userid) VALUES ( 10)
+DATABASE RETURN 0
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:20:18:51 +0000] "POST /signup HTTP/1.1" 200 4917 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:55 +0000] "GET /logout HTTP/1.1" 302 46 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+welcome: Unable to identify user...redirecting to login
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:55 +0000] "GET / HTTP/1.1" 302 56 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:55 +0000] "GET /login HTTP/1.1" 200 7299 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:138.16.119.99 - - [18/Apr/2019:20:18:56 +0000] "GET /login HTTP/1.1" 304 - "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/signup" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'cd'
+DATABASE RETURN 1
+::ffff:192.91.235.243 - - [18/Apr/2019:20:18:57 +0000] "POST /login HTTP/1.1" 200 7599 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+DATABASE: SELECT * FROM User U WHERE U.userName = 'jen'
+DATABASE RETURN 1
+::ffff:138.16.119.99 - - [18/Apr/2019:20:19:02 +0000] "POST /login HTTP/1.1" 200 7600 "http://ec2-3-16-183-224.us-east-2.compute.amazonaws.com:8080/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:57.0) Gecko/20100101 Firefox/57.0"
